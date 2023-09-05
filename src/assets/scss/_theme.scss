@@ -1,0 +1,15 @@
+// LIGHT THEME - DEFAULT
+.btn {
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.25rem;
+}
+.btn-primary {
+  --bs-btn-color: #ffffff;
+}
+
+// DARK THEME
+.dark {
+  .btn-primary {
+    --bs-btn-color: blue;
+  }
+}
