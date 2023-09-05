@@ -10,4 +10,12 @@ import { SliderCardComponent } from '../slider/slider-card/slider-card.component
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.scss'],
 })
-export class HeroComponent {}
+export class HeroComponent {
+  public featureProduct = {
+    image: 'https://placehold.co/540',
+    alt: 'dummy-540',
+    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt iusto rerum aut
+    quis pariatur. Pariatur animi, totam laudantium doloremque tempora reprehenderit
+    dignissimos perspiciatis.`,
+  };
+}
