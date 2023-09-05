@@ -1,9 +1,8 @@
 <div class="d-flex flex-column">
-  <figure>
-    <img src="https://placehold.co/540" alt="active-product" />
+  <figure [ngClass]="{ 'order-1': invert }">
+    <img [src]="product?.image" [alt]="product?.alt" />
   </figure>
   <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, animi
-    neque laborum exercitationem at tempore praesentium.
+    {{ product?.description }}
   </p>
 </div>
