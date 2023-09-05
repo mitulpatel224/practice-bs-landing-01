@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExploreComponent } from './components/explore/explore/explore.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HeroComponent } from './components/hero/hero.component';
 import { NewProductsComponent } from './components/new-products/new-products.component';
@@ -15,6 +16,7 @@ import { NewProductsComponent } from './components/new-products/new-products.com
     HeaderComponent,
     HeroComponent,
     NewProductsComponent,
+    ExploreComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
