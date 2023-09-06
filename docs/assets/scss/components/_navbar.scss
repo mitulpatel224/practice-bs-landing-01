@@ -1,0 +1,12 @@
+.navbar {
+  @media (min-width: 1024px) {
+    .navbar-nav {
+      gap: 5rem;
+      li {
+        a {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
