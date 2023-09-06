@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./section-header.component.scss'],
 })
 export class SectionHeaderComponent {
-  @Input() public title: string = 'PAGE_TITLE';
+  @Input() public title: string = '';
 }
