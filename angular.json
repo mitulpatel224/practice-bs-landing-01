@@ -35,6 +35,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "docs",
+            "baseHref": "https://mitulpatel224.github.io/practice-bs-landing-01/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
